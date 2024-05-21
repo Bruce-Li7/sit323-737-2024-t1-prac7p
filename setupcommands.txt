@@ -1,0 +1,22 @@
+Enable Kubernetes as mentioned in slides
+
+kubectl cluster-info
+kubectl get nodes
+
+ Create pods using:
+ kubectl apply -f .\createPods.yaml
+ kubectl get pods
+
+ Create Replica Set using
+ kubectl apply -f .\createReplicaSet.yaml
+ 
+ 
+
+ Create a Deployment using
+kubectl apply -f .\createDeployment.yaml
+kubectl get pods
+
+Create Service using
+kubectl apply -f .\createService.yaml
+
+check the url using port 8037 on localhost
